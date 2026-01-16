@@ -12,30 +12,31 @@
             color: #333;
         }
         header {
-            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
             color: white;
-            padding: 50px 20px;
+            padding: 55px 20px;
             text-align: center;
         }
         header h1 {
             margin: 0;
-            font-size: 42px;
+            font-size: 44px;
         }
         header p {
             font-size: 18px;
-            margin-top: 10px;
+            margin-top: 12px;
         }
         nav {
             background-color: #ffffff;
             display: flex;
             justify-content: center;
-            gap: 25px;
+            gap: 22px;
             padding: 15px;
             box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+            flex-wrap: wrap;
         }
         nav a {
             text-decoration: none;
-            color: #1e3c72;
+            color: #203a43;
             font-weight: 600;
         }
         section {
@@ -44,12 +45,12 @@
             margin: auto;
         }
         h2 {
-            color: #1e3c72;
-            margin-bottom: 15px;
+            color: #203a43;
+            margin-bottom: 18px;
         }
         .cards {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
             gap: 20px;
         }
         .card {
@@ -59,7 +60,7 @@
             box-shadow: 0 4px 10px rgba(0,0,0,0.08);
         }
         footer {
-            background-color: #1e3c72;
+            background-color: #203a43;
             color: white;
             text-align: center;
             padding: 25px;
@@ -67,9 +68,9 @@
         }
         .btn {
             display: inline-block;
-            margin-top: 15px;
-            padding: 12px 22px;
-            background-color: #1e3c72;
+            margin-top: 18px;
+            padding: 12px 24px;
+            background-color: #203a43;
             color: white;
             border-radius: 6px;
             text-decoration: none;
@@ -80,13 +81,12 @@
 
 <header>
     <h1>Gloria Model United Nations</h1>
-    <p>Diplomacy • Leadership • Global Vision</p>
+    <p>📍 3–4 April | Diplomacy • Debate • Leadership</p>
 </header>
 
 <nav>
     <a href="#about">About</a>
     <a href="#committees">Committees</a>
-    <a href="#secretariat">Secretariat</a>
     <a href="#register">Register</a>
     <a href="#contact">Contact</a>
 </nav>
@@ -94,56 +94,20 @@
 <section id="about">
     <h2>About Gloria MUN</h2>
     <p>
-        Gloria Model United Nations is a premier simulation of the United Nations,
-        providing students a platform to debate global issues, enhance diplomatic skills,
-        and develop leadership qualities. We believe in informed dialogue, inclusivity,
-        and excellence.
+        Gloria Model United Nations is a distinguished academic simulation designed to
+        nurture diplomacy, critical thinking, and leadership among young minds.
+        Delegates engage in meaningful debate on national and international agendas
+        while upholding parliamentary decorum and global cooperation.
     </p>
 </section>
 
 <section id="committees">
     <h2>Committees</h2>
     <div class="cards">
-        <div class="card">
-            <h3>UNHRC</h3>
-            <p>Discussing global human rights challenges and accountability.</p>
-        </div>
-        <div class="card">
-            <h3>UNSC</h3>
-            <p>Addressing international peace and security matters.</p>
-        </div>
-        <div class="card">
-            <h3>WHO</h3>
-            <p>Deliberating global health emergencies and policies.</p>
-        </div>
-    </div>
-</section>
-
-<section id="secretariat">
-    <h2>Secretariat</h2>
-    <p>
-        Our Secretariat consists of experienced MUNers committed to maintaining
-        professionalism, transparency, and an enriching delegate experience.
-    </p>
-</section>
-
-<section id="register">
-    <h2>Register Now</h2>
-    <p>
-        Be a part of Gloria MUN and experience diplomacy like never before.
-    </p>
-    <a href="#" class="btn">Register Here</a>
-</section>
-
-<section id="contact">
-    <h2>Contact Us</h2>
-    <p>Email: gloriamun@gmail.com</p>
-    <p>Instagram: @gloriamun</p>
-</section>
-
-<footer>
-    <p>© 2026 Gloria Model United Nations. All Rights Reserved.</p>
-</footer>
-
-</body>
-</html>
+        <div class="card"><h3>UNHRC</h3><p>United Nations Human Rights Council</p></div>
+        <div class="card"><h3>UNCSW</h3><p>UN Commission on the Status of Women</p></div>
+        <div class="card"><h3>Lok Sabha</h3><p>Indian Parliamentary Affairs</p></div>
+        <div class="card"><h3>BCCI</h3><p>Board of Control for Cricket in India</p></div>
+        <div class="card"><h3>FCC</h3><p>Future Crisis Committee</p></div>
+        <div class="card"><h3>CCC</h3><p>Continuous Crisis Committee</p></div>
+        <div class="card"><h3>IP-J, C, P</h
